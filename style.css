@@ -1,0 +1,826 @@
+body {
+    font-family: "Roboto";
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.wrapper {
+    max-width: 85%;
+    margin: 0 auto;
+}
+
+h1 {
+    font-size: 30px;
+    color: #1f222c;
+    font-weight: 700;
+    font-family: "Roboto Slab";
+    text-align: center;
+    margin-bottom: 75px;
+}
+
+.input1 {
+    padding: 15px;
+}
+
+h2 {
+    font-size: 20px;
+    letter-spacing: 0px;
+    text-transform: uppercase;
+    color: #b3b3b3;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.h204, .h205 {
+    font-size: 20px;
+    letter-spacing: 0px;
+    text-transform: uppercase;
+    color: #b3b3b3;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+
+.p04 {
+    font-size: 18px;
+    color: #1f222c;
+    font-weight: 700;
+    font-family: "Roboto";
+    margin-bottom: 30px;
+}
+
+.reg04 {
+    margin-bottom: 30px;
+}
+
+.reg1 {
+    padding: 15px;
+    outline: none;
+    border-radius: 3px;
+    background-color: #12d661;
+    border: none;
+    border: 1px solid transparent;
+    color: white;
+    width: 100%;
+    display: block;
+}
+
+.input1::placeholder, .textarea1::placeholder {
+    font-size: 14px;
+    color: #b3b3b3;
+    font-weight: 400;
+    font-family: "Roboto";
+}
+
+.input1 {
+    width: 100%;
+    display: block;
+    margin-bottom: 10px;
+    outline: none;
+    border: 1px solid #cccccc;
+
+}
+
+.form1 {
+    max-width: 330px;
+}
+
+.reg1:hover {
+    border: 1px solid black;
+}
+
+select {
+    appearance: none;
+    width: 100%;
+    background-color: #fff;
+    background-image: url(images/arrow.png);
+    outline: none;
+    background-repeat: no-repeat;
+    background-position-x: right;
+    background-position-y: center;
+    border: none;
+    width: 100%;
+    display: block;
+}   
+
+
+.select1 {
+    border: 1px solid #cccccc;
+    padding: 13px;
+    margin-bottom: 10px;
+    outline: none;
+}
+
+
+
+.textarea1 {
+    resize: vertical;
+    width: 100%;
+    display: block;
+    padding: 15px;
+    margin-bottom: 10px;
+    min-height: 130px;
+    outline: none;
+    border: 1px solid #cccccc;
+}
+
+
+
+
+
+
+.fixedform {
+    border-radius: 5px;
+    filter: drop-shadow(0px 5px 6px rgba(0,0,0,0.15));
+    background-color: #fafafa;
+    border: 1px solid #e6e6e6;
+    padding: 25px;
+}
+
+
+.fixedform a {
+    display: block;
+    font-size: 13px;
+    color: #3e6aff;
+    font-weight: 400;
+    font-family: "Roboto";
+    text-decoration: none;
+    margin-bottom: 10px;
+}
+
+.input6 {
+    padding: 10px;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.label6 p {
+    font-size: 13px;
+    color: #b3b3b3;
+    font-weight: 400;
+    font-family: "Roboto";
+    width: 100%;
+    margin-bottom: 5px;
+}
+
+
+
+
+.pfixedform {
+    margin-bottom: 10px;
+    margin-left: 20px;
+}
+
+
+
+.dat_input {
+    padding: 10px 15px;
+    outline: none;
+    border: 2px solid grey;
+    font-size: 14px;
+}
+
+.radio:checked + label {
+    color: blue;
+}
+
+.radio:checked + label:before {
+    border: 2px solid #3e6aff;
+    filter: grayscale(0);
+}
+
+.radio:checked + label:after {
+    filter: grayscale(0);
+}
+
+.radio {
+    display: none;
+}
+
+.man, .woman {
+    position: relative;
+    padding-left: 85px;
+    display: block;
+}
+
+.man{
+    margin-bottom: 75px;
+}
+
+/* .man:after {
+    content: "";
+    background-image: url(images/man.png);
+    background-size: 40px 60px;
+    position: absolute;
+    width: 40px;
+    height: 60px;
+    left: 17px;
+    top: -20px;
+    filter: grayscale(1);
+    transition: 0.3s;
+    
+} */
+
+.man:before {
+    position: absolute;
+    content: "";
+    width: 70px;
+    height: 70px;
+    border-radius: 35px;
+    background-image: url(images/man1.png);
+    left: 0;
+    top: -27px;
+    background-size: cover;
+    border: 2px solid transparent;
+    background-repeat: no-repeat;
+    filter: grayscale(1);
+}
+
+
+.woman:before {
+    position: absolute;
+    content: "";
+    width: 70px;
+    height: 70px;
+    border-radius: 35px;
+    background-image: url(images/woman2.png);
+    left: 0;
+    top: -27px;
+    background-size: cover;
+    border: 2px solid transparent;
+    background-repeat: no-repeat;
+    filter: grayscale(1);
+}
+
+/* .woman:after {
+    content: "";
+    background-image: url(images/woman.png);
+    background-size: 40px 60px;
+    position: absolute;
+    width: 40px;
+    height: 60px;
+    left: 15px;
+    top: -22px;
+    filter: grayscale(1);
+    transition: 0.3s;
+} */
+
+.gender h2 {
+    margin-bottom: 70px;
+    font-size: 20px;
+    letter-spacing: 0px;
+    text-transform: uppercase;
+    color: #b3b3b3;
+    font-weight: 700;
+    font-family: "Roboto";
+}
+
+
+
+.switch {
+    display: none;
+}
+
+.switch + label {
+    display: block;
+    padding-left: 65px;
+    position: relative;
+    margin-bottom: 30px;
+    left: 520px;
+    top: -120px;
+}
+
+
+
+.switch + label:before {
+    content: "";
+    width: 45px;
+    height: 25px;
+    border-radius: 12px;
+    background-color: #cfcfd1;
+    position: absolute;
+    left: 0;
+    transition: 0.3s;
+
+    
+}
+
+.switch + label:after {
+    content: "";
+    position: absolute;
+    width: 21px;
+    height: 21px;
+    border-radius: 10px;
+    background-color: #ffffff;
+    top: 2px;
+    left: 2px;
+    transition: 0.3s;
+
+}
+
+
+
+.switch:checked + label:after {
+    left: 22px;
+}
+
+.switch:checked + label:before {
+    background-color: #3e6aff;
+}
+
+.elements {
+    margin-bottom: 50px;
+}
+
+.elements_check {
+    display: none;
+}
+
+.elements_1 {
+    padding-left: 25px;
+}
+
+.elements_check + label, .elements_check1 + label {
+    position: relative;
+    display: block;
+    font-size: 14px;
+    color: #1f222c;
+    font-weight: 400;
+    font-family: "Roboto";
+    box-sizing: content-box;
+}
+
+.elements_check + label:before {
+    position: absolute;
+    content: "";
+    width: 15px;
+    height: 15px;
+    border-radius: 7px;
+    background-color: #ffffff;
+    border: 1px solid #cccccc;
+    left: -20px;
+    top: 0;
+}
+
+.elements_check:checked + label:before {
+    background-color: #ffffff;
+    border: 1px solid #3e6aff;
+}
+
+
+
+.elements_check + label:after {
+    position: absolute;
+    content: "";
+    width: 7px;
+    height: 7px;
+    border-radius: 4px;
+    background-color: #ffffff;
+    top: 5px;
+    left: -15px;
+}
+
+
+.elements_check:checked + label:after {
+    background-color: #3e6aff;
+}
+
+
+.elements_check:checked + label:before {
+
+}
+
+
+label.disabled {
+    font-size: 14px;
+    color: #b3b3b3 !important;
+    font-weight: 400;
+    font-family: "Roboto";
+}
+
+
+
+.elements_check1 + label:before {
+    content: "";
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    border-radius: 3px;
+    background-color: #ffffff;
+    border: 1px solid #cccccc;
+    left: 0;
+    top: 0;
+}
+
+.elements_check1 {
+    display: none;
+}
+
+.elements_check + label {
+    margin-bottom: 10px;
+}
+
+
+.elements_check1 + label {
+    margin-bottom: 10px;
+}
+
+.elements_check1 + label:after {
+    content: "";
+    position: absolute;
+    width: 9px;
+    height: 7px;
+    border-left: 1px solid #ffffff;
+    border-bottom: 1px solid #ffffff;
+    rotate: -45deg;
+    top: 2px;
+    left: 4px;
+}
+
+
+
+.elements_check1:checked + label:after {
+    border-left: 1px solid #244dd7;
+    border-bottom: 1px solid #244dd7;
+}
+
+
+.elements_check1:checked + label:before {
+    background-color: #ffffff;
+    border: 1px solid #3e6aff;
+}
+
+
+
+.elements_check1 {
+    display: none;
+}
+
+.gender + label:after {
+    content: "";
+    position: absolute;
+    width: 9px;
+    height: 7px;
+    border-left: 1px solid #ffffff;
+    border-bottom: 1px solid #ffffff;
+    rotate: -45deg;
+    top: 2px;
+    left: -21px;
+}
+
+
+
+.elements_1 {
+    display: flex;
+    column-gap: 60px;
+}
+
+
+.elements_date {
+    padding: 25px;
+    border-radius: 3px;
+    background-color: #f7f7f7;
+    border: 1px solid #e5e5e5;
+}
+
+
+
+.elements h2 {
+    font-size: 20px;
+    letter-spacing: 0px;
+    text-transform: uppercase;
+    color: #b3b3b3;
+    font-weight: 700;
+    font-family: "Roboto";
+    margin-bottom: 45px;
+}
+
+
+hr {
+    border: none;
+    border-top: 1px solid #dcdcde;
+}
+
+.status {
+    display: flex;
+    column-gap: 40px;
+}
+
+
+.date {
+    display: flex;
+    column-gap: 30px;
+    align-items: center;
+}
+
+
+.date_input {
+    padding: 15px;
+}
+
+
+.fixedform {
+    margin-bottom: 50px;
+}
+
+hr, .wrapper {
+    margin-bottom: 50px;
+}
+
+
+.tablegender + label {
+    position: relative;
+    display: block;
+    font-size: 14px;
+    color: #1f222c;
+    font-weight: 400;
+    font-family: "Roboto";
+    box-sizing: content-box;
+    padding-left: 30px;
+}
+
+.tablegender + label:before {
+    position: absolute;
+    content: "";
+    width: 15px;
+    height: 15px;
+    border-radius: 7px;
+    background-color: #ffffff;
+    border: 1px solid #cccccc;
+    left: 0;
+    top: 0;
+}
+
+.tablegender:checked + label:before {
+    background-color: #ffffff;
+    border: 1px solid #3e6aff;
+}
+
+
+
+.tablegender + label:after {
+    position: absolute;
+    content: "";
+    width: 7px;
+    height: 7px;
+    border-radius: 4px;
+    background-color: #ffffff;
+    top: 5px;
+    left: 5px;
+}
+
+
+.tablegender:checked + label:after {
+    background-color: #3e6aff;
+}
+
+
+
+
+
+
+
+.gender_class {
+    display: flex;
+    column-gap: 40px;
+    margin-bottom: 10px;
+}
+
+
+.file {
+    display: none;
+}
+
+
+.file + label {
+    width: 170px;
+    height: 41px;
+    border-radius: 3px;
+    background-color: #3e6aff;
+    font-size: 14px;
+    color: #ffffff;
+    font-weight: 700;
+    font-family: "Roboto";
+    text-align: center;
+    padding: 10px;
+    display: inline-block;
+    margin-bottom: 10px;
+    
+}
+
+
+.yourname {
+    width: 340px;
+    height: 41px;
+    border-radius: 3px;
+    background-color: #ffffff;
+    border: 1px solid #cccccc;
+    font-size: 14px;
+    color: #b3b3b3;
+    font-weight: 400;
+    font-family: "Roboto";
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+
+
+.yourpassword {
+    width: 340px;
+    height: 41px;
+    border-radius: 3px;
+    background-color: #ffffff;
+    border: 1px solid #cccccc;
+    font-size: 14px;
+    color: #b3b3b3;
+    font-weight: 400;
+    font-family: "Roboto";
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.reg04 {
+    padding: 15px 25px;
+    border-radius: 3px;
+    background-color: #12d661;
+    font-size: 14px;
+    color: #ffffff;
+    font-weight: 700;
+    font-family: "Roboto";
+    text-align: center;
+    border: 1px solid #12d661;
+    cursor: pointer;
+}
+
+.reg04:hover {
+    border: 1px solid #097735;
+}
+
+
+.comment {
+    margin-right: 85px;
+}
+
+
+.tdcom {
+    vertical-align: top;
+}
+
+input {
+    outline: none;
+}
+
+.yourname {
+    width: 100%;
+}
+
+
+.flex {
+    align-items: center;
+    display: flex;
+    border: none;
+    border-top: 1px solid #dcdcde;
+    width: 100%;
+}
+
+ 
+.ppcolor {
+    font-size: 13px;
+    color: #b3b3b3;
+    font-weight: 400;
+    font-family: "Roboto";
+    margin-bottom: 10;
+}  
+
+
+.pppcolor {
+    font-size: 14px;
+    color: #1f222c;
+    font-weight: 400;
+    font-family: "Roboto";
+}
+
+
+.goback {
+    font-size: 14px;
+    color: #6e6f77;
+    font-weight: 700;
+    font-family: "Roboto";
+    text-align: center;
+    padding: 15px 25px;
+    border-radius: 3px;
+    background-color: #ffffff;
+    border: 1px solid #85868d;
+    cursor: pointer;
+
+}
+
+.w100 {
+    width: 100%;
+}
+
+
+.tdflex {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+
+.rules_of_pay {
+    box-sizing: border-box;
+}
+
+.rules {
+    padding-left: 25px;
+}
+
+.part {
+    width: 100%;
+    height: 25px;
+
+    margin-bottom: 25px;
+    border-bottom:1px solid #e9e9e9;
+}
+
+
+.tdpart {
+    width: 100%;
+}
+
+
+.table05 {
+    border-spacing: 10px;
+}
+
+
+
+.gender + label:before {
+    content: "";
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    border-radius: 7px;
+    background-color: #ffffff;
+    border: 1px solid #cccccc;
+    left: 0;
+}
+
+.gender + label {
+    position: relative;
+    padding-left: 25px;
+}
+
+
+.gender {
+    display: none;
+}
+
+.gender + label:after {
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+    background-color: #ffffff;
+    left: 4.7px;
+    top: 5px;
+}
+
+.gender:checked + label:after {
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+    background-color: #3e6aff;
+    left: 4.7px;
+    top: 5px;
+}
+
+
+.gender:checked + label:before {
+    content: "";
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    border-radius: 7px;
+    background-color: #ffffff;
+    border: 1px solid #3e6aff;
+    left: 0;
+}
+
+.fixedform {
+    position: fixed;
+    right: 7.5%;
+    top: 175px;
+}
+
+
+.lfixedform {
+    padding-left: 25px;
+}
+
+.elements_1 label:not(input[type="radio"] + label) {
+    padding-left: 25px;
+}
