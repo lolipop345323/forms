@@ -15,11 +15,12 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
         rel="stylesheet">
-    <title>Document</title>
+    <title>найпопулярніші різні види форм</title>
 </head>
 
 <body>
     <div class="wrapper">
+        <div class="start"></div>
         <h1>ФОРМИ</h1>
         <div class="form1">
             <h2 class="h2">01. проста форма</h2>
@@ -40,9 +41,12 @@
             </form>
         </div>
 
+       
+
         <div class="fixedform">
-            <h2>06. фіксована форма</h2>
-            <form action="">
+             <h2>06. фіксована форма</h2>
+            <form class="infixedform" action="">
+                <span class="cross"></span>
                 <label class="label6" for="login">
                     <p>Логін</p>
                     <input class="input6" id="login" type="text">
@@ -64,11 +68,11 @@
             <h2>02. ЕЛЕМЕНТИ</h2>
             <div class="elements_1">
                 <div class="">
-                    <input class="elements_check" name="delivery_method" id="delivery by mail" type="checkbox">
+                    <input class="elements_check" name="delivery_method" id="delivery by mail" type="radio">
                     <label for="delivery by mail">Нова пошта</label>
-                    <input class="elements_check" name="delivery_method" id="delivery by courier" type="checkbox">
+                    <input class="elements_check" name="delivery_method" id="delivery by courier" type="radio">
                     <label for="delivery by courier">Кур’єр</label>
-                    <input class="elements_check" disabled name="delivery_method" id="self pickup" type="checkbox">
+                    <input class="elements_check" disabled name="delivery_method" id="self pickup" type="radio">
                     <label class="disabled" for="self pickup">Самовивіз</label>
                 </div>
 
@@ -82,7 +86,7 @@
                 </div>
                 <form class="wrapper elements_date" action="">
                     <div class="status">
-                        <p>Статус</p>
+                        <p class="statusp">Статус</p>
                         <input class="elements_check1" name="menu" id="novelty" type="checkbox">
                         <label for="novelty">Новинки</label>
                         <input class="elements_check1" name="menu" id="promotional products" type="checkbox">
@@ -91,7 +95,7 @@
                         <label for="sale">Розпродаж</label>
                     </div>
                     <div class="date">
-                        <p>Дата</p>
+                        <p class="datep">Дата</p>
                         <label for="">
                             <input class="date_input" type="date">
                         </label>
@@ -127,12 +131,12 @@
         <p class="p04">Заповніть усі необхідні поля</p>
         <table>
             <tr>
-                <td><label for="">ФІО:</label></td>
-                <td><input class="yourname" type="text" placeholder="Введіть ім’я"></td>
+                <td><label for="fullname">ФІО:</label></td>
+                <td><input class="yourname" type="text" id="fullname" placeholder="Введіть ім’я"></td>
             </tr>
             <tr>
-                <td><label for="">Пароль:</label></td>
-                <td><input class="yourpassword" type="password" placeholder="Введіть не менше 6 символів"></td>
+                <td><label for="pass">Пароль:</label></td>
+                <td><input class="yourpassword" type="password" id="pass" placeholder="Введіть не менше 6 символів"></td>
             </tr>
             <tr>
                 <td><label for="select1">Місто</label></td>
@@ -154,9 +158,9 @@
                 </td>
                 <td>
                     <div class="gender_class">
-                        <input class="gender" name="gender2" id="man_table" type="checkbox">
+                        <input class="gender_input" name="gender2" id="man_table" type="radio">
                         <label for="man_table">Чоловік</label>
-                        <input class="gender" name="gender2" id="woman_table" type="checkbox">
+                        <input class="gender_input" name="gender2" id="woman_table" type="radio">
                         <label for="woman_table">Жінка</label>
                     </div>
                 </td>
@@ -178,21 +182,23 @@
             </tr>
         </table>
 
+            <hr>
 
         <table class="table05">
             <h2 class="h205">05. форма таблицею</h2>
+            <p class="application">Оформлення заявки</p>
             <tr>
 
                 <td>
-                    <p class="ppcolor">Прізвище та ім’я</p>
+                    <label for="yn" class="ppcolor">Прізвище та ім’я</label>
                     <div class="info">
-                        <input class="yourname pppcolor" type="text" name="" id="">
+                        <input class="yourname pppcolor" type="text" name="" id="yn">
                 </td>
                 <td>
-                    <p class="ppcolor">Ел. пошта</p> <input class="yourname pppcolor" type="text" name="" id="">
+                    <label for="mail" class="ppcolor">Ел. пошта</label> <input class="yourname pppcolor" id="mail" type="text" name="" id="">
                 </td>
                 <td>
-                    <p class="ppcolor">Телефон</p> <input class="yourname " type="text"></div>
+                    <label for="phone" class="ppcolor">Телефон</label> <input class="yourname" id="phone" type="text"></div>
                 </td>
             </tr>
             <tr>
@@ -202,9 +208,9 @@
             </tr>
             <tr>
                 <td>
-                    <p class="ppcolor">Країна</p>
+                    <label for="country" class="ppcolor">Країна</label>
                     <div class="select1">
-                        <select name="" id="">
+                        <select name="" id="country"label
                             <option value="">Індонезія</option>
                             <option value="">Естонія</option>
                             <option value="">Румунія</option>
@@ -214,20 +220,20 @@
                     </div>
                 </td>
                 <td colspan="2">
-                    <p class="ppcolor">Адреса</p>
-                    <input class="yourname pppcolor" type="text">
+                    <label for="street" class="ppcolor">Адреса</label>
+                    <input id="street" class="yourname pppcolor" type="text">
                 </td>
             </tr>
 
             <tr>
                 <td>
-                    <p class="ppcolor">Місто</p><input class="yourname pppcolor" type="text">
+                    <label for="city" class="ppcolor">Місто</label><input id="city" class="yourname pppcolor" type="text">
                 </td>
                 <td>
-                    <p class="ppcolor">Будинок</p><input class="yourname pppcolor" type="text">
+                    <label for="house" class="ppcolor">Будинок</label><input id="house"  class="yourname pppcolor" type="text">
                 </td>
                 <td>
-                    <p class="ppcolor">Поштовий індекс</p><input class="yourname pppcolor type=" text" name="" id="">
+                    <label for="code" class="ppcolor">Поштовий індекс</label><input id="code" class="yourname pppcolor type=" text" name="" id="">
                 </td>
             </tr>
             <tr>
@@ -244,7 +250,7 @@
             <tr>
                 <td><button class="goback">Повернутися назад</button></td>
                 <td colspan="2">
-                    <div class="tdflex"><button class="reg04 purchase">Оформити покупку</button></div>
+                    <div class="tdflex"><button class="reg05 purchase">Оформити покупку</button></div>
                 </td>
             </tr>
         </table>

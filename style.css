@@ -2,6 +2,9 @@ body {
     font-family: "Roboto";
 }
 
+.start  {
+    margin-bottom: 70px;
+}
 
 *{
     margin: 0;
@@ -25,6 +28,7 @@ h1 {
 
 .input1 {
     padding: 15px;
+    border-radius: 5px;
 }
 
 h2 {
@@ -67,6 +71,11 @@ h2 {
     color: white;
     width: 100%;
     display: block;
+    font-size: 14px;
+    color: #ffffff;
+    font-weight: 700;
+    font-family: "Roboto";
+    text-align: center;
 }
 
 .input1::placeholder, .textarea1::placeholder {
@@ -128,19 +137,37 @@ select {
     border: 1px solid #cccccc;
 }
 
-
-
-
-
-
 .fixedform {
+    position: fixed;
+    z-index: 2;
+}
+
+.infixedform {
     border-radius: 5px;
     filter: drop-shadow(0px 5px 6px rgba(0,0,0,0.15));
     background-color: #fafafa;
     border: 1px solid #e6e6e6;
     padding: 25px;
+
 }
 
+.application {
+    font-size: 18px;
+    color: #1f222c;
+    font-weight: 700;
+    font-family: "Roboto";
+}
+
+.ppcolor {
+    margin-bottom: 10px;
+}
+
+.datep, .statusp {
+    font-size: 14px;
+    color: #b3b3b3;
+    font-weight: 700;
+    font-family: "Roboto";
+}
 
 .fixedform a {
     display: block;
@@ -433,11 +460,11 @@ label.disabled {
     content: "";
     position: absolute;
     width: 9px;
-    height: 7px;
+    height: 5px;
     border-left: 1px solid #ffffff;
     border-bottom: 1px solid #ffffff;
     rotate: -45deg;
-    top: 2px;
+    top: 3px;
     left: 4px;
 }
 
@@ -643,7 +670,7 @@ hr, .wrapper {
     margin-bottom: 10px;
 }
 
-.reg04 {
+.reg04, .reg05 {
     padding: 15px 25px;
     border-radius: 3px;
     background-color: #12d661;
@@ -655,6 +682,8 @@ hr, .wrapper {
     border: 1px solid #12d661;
     cursor: pointer;
 }
+
+
 
 .reg04:hover {
     border: 1px solid #097735;
@@ -716,7 +745,11 @@ input {
     background-color: #ffffff;
     border: 1px solid #85868d;
     cursor: pointer;
+}
 
+.goback:hover {
+    background-color: #85868d;
+    color: white;
 }
 
 .w100 {
@@ -759,7 +792,7 @@ input {
 
 
 
-.gender + label:before {
+.gender_input + label:before {
     content: "";
     position: absolute;
     width: 15px;
@@ -770,36 +803,33 @@ input {
     left: 0;
 }
 
-.gender + label {
+.gender_input + label {
     position: relative;
     padding-left: 25px;
 }
 
 
-.gender {
+.gender_input {
     display: none;
 }
 
-.gender + label:after {
+.gender_input + label:after {
+    content: "";
+    position: absolute;
     width: 7px;
     height: 7px;
     border-radius: 50%;
-    background-color: #ffffff;
-    left: 4.7px;
+    background-color: #fff;
+    left: 5px;
     top: 5px;
 }
 
-.gender:checked + label:after {
-    width: 7px;
-    height: 7px;
-    border-radius: 50%;
+.gender_input:checked + label:after {
     background-color: #3e6aff;
-    left: 4.7px;
-    top: 5px;
 }
 
 
-.gender:checked + label:before {
+.gender_input:checked + label:before {
     content: "";
     position: absolute;
     width: 15px;
@@ -823,4 +853,33 @@ input {
 
 .elements_1 label:not(input[type="radio"] + label) {
     padding-left: 25px;
+}
+
+.infixedform {
+    content: "";
+    position: relative;
+}
+
+.cross {
+    cursor: pointer;
+}
+
+.cross:before, .cross:after {
+    content: "";
+    position: absolute;
+    width: 10px;
+    height: 2px;
+    background-color: #6e6f77;
+    top: 10px;
+    right: 10px;
+}
+
+
+.cross:before {
+    rotate: 45deg;
+}
+
+
+.cross:after {
+    rotate: -45deg;
 }
