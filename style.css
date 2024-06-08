@@ -114,6 +114,7 @@ select {
     border: none;
     width: 100%;
     display: block;
+    border-radius: 5px;
 }   
 
 
@@ -122,6 +123,7 @@ select {
     padding: 13px;
     margin-bottom: 10px;
     outline: none;
+    border-radius: 5px;
 }
 
 
@@ -135,11 +137,13 @@ select {
     min-height: 130px;
     outline: none;
     border: 1px solid #cccccc;
+    border-radius: 5px;
 }
 
 .fixedform {
     position: fixed;
     z-index: 2;
+    width: 310px !important;
 }
 
 .infixedform {
@@ -156,6 +160,7 @@ select {
     color: #1f222c;
     font-weight: 700;
     font-family: "Roboto";
+    margin-bottom: 10px;
 }
 
 .ppcolor {
@@ -786,9 +791,8 @@ input {
 }
 
 
-.table05 {
-    border-spacing: 10px;
-}
+
+
 
 
 
