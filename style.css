@@ -932,6 +932,31 @@ td p {
     }
 }
 
+@media (min-width: 900px) {
+    .elements_check1 + label:before {
+        content: "";
+        position: absolute;
+        width: 16rem;
+        height: 16rem;
+        border-radius: 3rem;
+        background-color: #ffffff;
+        border: 1rem solid #cccccc;
+        left: -20rem;
+        top: 0;
+    }
+
+    .elements_check1 + label:after {
+        content: "";
+        position: absolute;
+        width: 9rem;
+        height: 5rem;
+        border-left: 1rem solid #ffffff;
+        border-bottom: 1rem solid #ffffff;
+        rotate: -45deg;
+        top: 3rem;
+        left: -16rem;
+    }
+}
 
 @media (max-width: 900px) {
     .burger-span {
@@ -1107,9 +1132,8 @@ td p {
         border-radius: 5px;
     }
 
-    
-    
 }
+
 
 .fixedform.active {
     display: block;
