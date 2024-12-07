@@ -911,6 +911,22 @@ td p {
     justify-content: space-between;
 }
 
+.elements_check1::before {
+    left: 0;
+}
+
+.elements_check1::after {
+    left: 0;
+}
+
+.sbbutton05 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    column-gap: 5rem;
+    row-gap: 20rem;
+}
+
 
 @media (min-width: 1440px) {
     .cross {
@@ -929,6 +945,13 @@ td p {
 @media (min-width: 2000px) {
     html {
         font-size: 1.3px;
+    }
+}
+
+@media (max-width: 375px) {
+    .fixedform {
+        max-width: 90%;
+        left: 15rem;
     }
 }
 
@@ -1134,7 +1157,14 @@ td p {
 
 }
 
+.table05overflow label::before {
+    left: 0;
+}
 
+.table05overflow label::after {
+    left: 4rem;
+}
+ 
 .fixedform.active {
     display: block;
 }
