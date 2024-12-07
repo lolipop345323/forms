@@ -1,9 +1,14 @@
+
+html {
+    font-size: 1px;
+}
+
 body {
     font-family: "Roboto";
 }
 
 .start  {
-    margin-bottom: 70px;
+    margin-bottom: 70rem;
 }
 
 *{
@@ -18,88 +23,88 @@ body {
 }
 
 h1 {
-    font-size: 30px;
+    font-size: 30rem;
     color: #1f222c;
-    font-weight: 700;
+    /* font-weight: 700; */
     font-family: "Roboto Slab";
     text-align: center;
-    margin-bottom: 75px;
+    margin-bottom: 75rem;
 }
 
 .input1 {
-    padding: 15px;
-    border-radius: 5px;
+    padding: 15rem;
+    border-radius: 5rem;
 }
 
 h2 {
-    font-size: 20px;
-    letter-spacing: 0px;
+    font-size: 20rem;
+    letter-spacing: 0rem;
     text-transform: uppercase;
     color: #b3b3b3;
-    font-weight: 700;
-    margin-bottom: 10px;
+    /* font-weight: 700; */
+    margin-bottom: 10rem;
 }
 
 .h204, .h205 {
-    font-size: 20px;
-    letter-spacing: 0px;
+    font-size: 20rem;
+    letter-spacing: 0rem;
     text-transform: uppercase;
     color: #b3b3b3;
-    font-weight: 700;
-    margin-bottom: 30px;
+    /* font-weight: 700; */
+    margin-bottom: 30rem;
 }
 
 .p04 {
-    font-size: 18px;
+    font-size: 18rem;
     color: #1f222c;
-    font-weight: 700;
+    /* font-weight: 700; */
     font-family: "Roboto";
-    margin-bottom: 30px;
+    margin-bottom: 30rem;
 }
 
 .reg04 {
-    margin-bottom: 30px;
+    margin-bottom: 30rem;
 }
 
 .reg1 {
-    padding: 15px;
+    padding: 15rem;
     outline: none;
-    border-radius: 3px;
+    border-radius: 3rem;
     background-color: #12d661;
     border: none;
     border: 1px solid transparent;
     color: white;
     width: 100%;
     display: block;
-    font-size: 14px;
+    font-size: 14rem;
     color: #ffffff;
-    font-weight: 700;
+    /* font-weight: 700; */
     font-family: "Roboto";
     text-align: center;
 }
 
 .input1::placeholder, .textarea1::placeholder {
-    font-size: 14px;
+    font-size: 14rem;
     color: #b3b3b3;
-    font-weight: 400;
+    /* font-weight: 400; */
     font-family: "Roboto";
 }
 
 .input1 {
     width: 100%;
     display: block;
-    margin-bottom: 10px;
+    margin-bottom: 10rem;
     outline: none;
-    border: 1px solid #cccccc;
+    border: 1rem solid #cccccc;
 
 }
 
 .form1 {
-    max-width: 330px;
+    max-width: 330rem;
 }
 
 .reg1:hover {
-    border: 1px solid black;
+    border: 1rem solid black;
 }
 
 select {
@@ -114,16 +119,16 @@ select {
     border: none;
     width: 100%;
     display: block;
-    border-radius: 5px;
+    border-radius: 5rem;
 }   
 
 
 .select1 {
-    border: 1px solid #cccccc;
-    padding: 13px;
-    margin-bottom: 10px;
+    border: 1rem solid #cccccc;
+    padding: 13rem;
+    margin-bottom: 10rem;
     outline: none;
-    border-radius: 5px;
+    border-radius: 5rem;
 }
 
 
@@ -132,88 +137,88 @@ select {
     resize: vertical;
     width: 100%;
     display: block;
-    padding: 15px;
-    margin-bottom: 10px;
-    min-height: 130px;
+    padding: 15rem;
+    margin-bottom: 10rem;
+    min-height: 130rem;
     outline: none;
-    border: 1px solid #cccccc;
-    border-radius: 5px;
+    border: 1rem solid #cccccc;
+    border-radius: 5rem;
 }
 
 .fixedform {
     position: fixed;
     z-index: 2;
-    width: 310px !important;
+    width: 310rem !important;
 }
 
 .infixedform {
-    border-radius: 5px;
-    filter: drop-shadow(0px 5px 6px rgba(0,0,0,0.15));
+    border-radius: 5rem;
+    filter: drop-shadow(0rem 5rem 6rem rgba(0,0,0,0.15));
     background-color: #fafafa;
-    border: 1px solid #e6e6e6;
-    padding: 25px;
+    border: 1rem solid #e6e6e6;
+    padding: 25rem;
 
 }
 
 .application {
-    font-size: 18px;
+    font-size: 18rem;
     color: #1f222c;
-    font-weight: 700;
+    /* font-weight: 700; */
     font-family: "Roboto";
-    margin-bottom: 10px;
+    margin-bottom: 10rem;
 }
 
 .ppcolor {
-    margin-bottom: 10px;
+    margin-bottom: 10rem;
 }
 
 .datep, .statusp {
-    font-size: 14px;
+    font-size: 14rem;
     color: #b3b3b3;
-    font-weight: 700;
+    /* font-weight: 700; */
     font-family: "Roboto";
 }
 
 .fixedform a {
     display: block;
-    font-size: 13px;
+    font-size: 13rem;
     color: #3e6aff;
-    font-weight: 400;
+    /* font-weight: 400; */
     font-family: "Roboto";
     text-decoration: none;
-    margin-bottom: 10px;
+    margin-bottom: 10rem;
 }
 
 .input6 {
-    padding: 10px;
+    padding: 10rem;
     width: 100%;
-    margin-bottom: 10px;
+    margin-bottom: 10rem;
 }
 
 .label6 p {
-    font-size: 13px;
+    font-size: 13rem;
     color: #b3b3b3;
-    font-weight: 400;
+    /* font-weight: 400; */
     font-family: "Roboto";
     width: 100%;
-    margin-bottom: 5px;
+    margin-bottom: 5rem;
 }
 
 
 
 
 .pfixedform {
-    margin-bottom: 10px;
-    margin-left: 20px;
+    margin-bottom: 10rem;
+    margin-left: 20rem;
 }
 
 
 
 .dat_input {
-    padding: 10px 15px;
+    padding: 10rem 15rem;
     outline: none;
-    border: 2px solid grey;
-    font-size: 14px;
+    border: 2rem solid grey;
+    font-size: 14rem;
 }
 
 .radio:checked + label {
@@ -221,7 +226,7 @@ select {
 }
 
 .radio:checked + label:before {
-    border: 2px solid #3e6aff;
+    border: 2rem solid #3e6aff;
     filter: grayscale(0);
 }
 
@@ -235,12 +240,12 @@ select {
 
 .man, .woman {
     position: relative;
-    padding-left: 85px;
+    padding-left: 85rem;
     display: block;
 }
 
 .man{
-    margin-bottom: 75px;
+    margin-bottom: 75rem;
 }
 
 /* .man:after {
@@ -260,14 +265,14 @@ select {
 .man:before {
     position: absolute;
     content: "";
-    width: 70px;
-    height: 70px;
-    border-radius: 35px;
+    width: 70rem;
+    height: 70rem;
+    border-radius: 35rem;
     background-image: url(images/man1.png);
     left: 0;
-    top: -27px;
+    top: -27rem;
     background-size: cover;
-    border: 2px solid transparent;
+    border: 2rem solid transparent;
     background-repeat: no-repeat;
     filter: grayscale(1);
 }
@@ -276,14 +281,14 @@ select {
 .woman:before {
     position: absolute;
     content: "";
-    width: 70px;
-    height: 70px;
-    border-radius: 35px;
+    width: 70rem;
+    height: 70rem;
+    border-radius: 35rem;
     background-image: url(images/woman2.png);
     left: 0;
-    top: -27px;
+    top: -27rem;
     background-size: cover;
-    border: 2px solid transparent;
+    border: 2rem solid transparent;
     background-repeat: no-repeat;
     filter: grayscale(1);
 }
@@ -302,12 +307,12 @@ select {
 } */
 
 .gender h2 {
-    margin-bottom: 70px;
-    font-size: 20px;
-    letter-spacing: 0px;
+    margin-bottom: 70rem;
+    font-size: 20rem;
+    letter-spacing: 0rem;
     text-transform: uppercase;
     color: #b3b3b3;
-    font-weight: 700;
+    /* font-weight: 700; */
     font-family: "Roboto";
 }
 
@@ -319,20 +324,19 @@ select {
 
 .switch + label {
     display: block;
-    padding-left: 65px;
+    font-size: 14rem;
+    padding-left: 65rem;
     position: relative;
-    margin-bottom: 30px;
-    left: 520px;
-    top: -120px;
+    margin-bottom: 30rem;
 }
 
 
 
 .switch + label:before {
     content: "";
-    width: 45px;
-    height: 25px;
-    border-radius: 12px;
+    width: 45rem;
+    height: 25rem;
+    border-radius: 12rem;
     background-color: #cfcfd1;
     position: absolute;
     left: 0;
@@ -344,12 +348,12 @@ select {
 .switch + label:after {
     content: "";
     position: absolute;
-    width: 21px;
-    height: 21px;
-    border-radius: 10px;
+    width: 21rem;
+    height: 21rem;
+    border-radius: 10rem;
     background-color: #ffffff;
-    top: 2px;
-    left: 2px;
+    top: 2rem;
+    left: 2rem;
     transition: 0.3s;
 
 }
@@ -365,7 +369,7 @@ select {
 }
 
 .elements {
-    margin-bottom: 50px;
+    margin-bottom: 50rem;
 }
 
 .elements_check {
@@ -373,15 +377,16 @@ select {
 }
 
 .elements_1 {
-    padding-left: 25px;
+    padding-left: 25rem;
 }
 
 .elements_check + label, .elements_check1 + label {
     position: relative;
     display: block;
-    font-size: 14px;
+    font-size: 14rem;
     color: #1f222c;
-    font-weight: 400;
+    width: 100%;
+    /* font-weight: 400; */
     font-family: "Roboto";
     box-sizing: content-box;
 }
@@ -389,18 +394,18 @@ select {
 .elements_check + label:before {
     position: absolute;
     content: "";
-    width: 15px;
-    height: 15px;
-    border-radius: 7px;
+    width: 15rem;
+    height: 15rem;
+    border-radius: 7rem;
     background-color: #ffffff;
-    border: 1px solid #cccccc;
-    left: -20px;
+    border: 1rem solid #cccccc;
+    left: -20rem;
     top: 0;
 }
 
 .elements_check:checked + label:before {
     background-color: #ffffff;
-    border: 1px solid #3e6aff;
+    border: 1rem solid #3e6aff;
 }
 
 
@@ -408,12 +413,12 @@ select {
 .elements_check + label:after {
     position: absolute;
     content: "";
-    width: 7px;
-    height: 7px;
-    border-radius: 4px;
+    width: 7rem;
+    height: 7rem;
+    border-radius: 4rem;
     background-color: #ffffff;
-    top: 5px;
-    left: -15px;
+    top: 5rem;
+    left: -15rem;
 }
 
 
@@ -428,9 +433,9 @@ select {
 
 
 label.disabled {
-    font-size: 14px;
+    font-size: 14rem;
     color: #b3b3b3 !important;
-    font-weight: 400;
+    /* font-weight: 400; */
     font-family: "Roboto";
 }
 
@@ -439,11 +444,11 @@ label.disabled {
 .elements_check1 + label:before {
     content: "";
     position: absolute;
-    width: 16px;
-    height: 16px;
-    border-radius: 3px;
+    width: 16rem;
+    height: 16rem;
+    border-radius: 3rem;
     background-color: #ffffff;
-    border: 1px solid #cccccc;
+    border: 1rem solid #cccccc;
     left: 0;
     top: 0;
 }
@@ -453,24 +458,24 @@ label.disabled {
 }
 
 .elements_check + label {
-    margin-bottom: 10px;
+    margin-bottom: 10rem;
 }
 
 
 .elements_check1 + label {
-    margin-bottom: 10px;
+    margin-bottom: 10rem;
 }
 
 .elements_check1 + label:after {
     content: "";
     position: absolute;
-    width: 9px;
-    height: 5px;
-    border-left: 1px solid #ffffff;
-    border-bottom: 1px solid #ffffff;
+    width: 9rem;
+    height: 5rem;
+    border-left: 1rem solid #ffffff;
+    border-bottom: 1rem solid #ffffff;
     rotate: -45deg;
-    top: 3px;
-    left: 4px;
+    top: 3rem;
+    left: 4rem;
 }
 
 
@@ -495,40 +500,40 @@ label.disabled {
 .gender + label:after {
     content: "";
     position: absolute;
-    width: 9px;
-    height: 7px;
-    border-left: 1px solid #ffffff;
-    border-bottom: 1px solid #ffffff;
+    width: 9rem;
+    height: 7rem;
+    border-left: 1rem solid #ffffff;
+    border-bottom: 1rem solid #ffffff;
     rotate: -45deg;
-    top: 2px;
-    left: -21px;
+    top: 2rem;
+    left: -21rem;
 }
 
 
 
 .elements_1 {
     display: flex;
-    column-gap: 60px;
+    column-gap: 60rem;
 }
 
 
 .elements_date {
-    padding: 25px;
-    border-radius: 3px;
+    padding: 25rem;
+    border-radius: 3rem;
     background-color: #f7f7f7;
-    border: 1px solid #e5e5e5;
+    border: 1rem solid #e5e5e5;
 }
 
 
 
 .elements h2 {
-    font-size: 20px;
-    letter-spacing: 0px;
+    font-size: 20rem;
+    letter-spacing: 0rem;
     text-transform: uppercase;
     color: #b3b3b3;
     font-weight: 700;
     font-family: "Roboto";
-    margin-bottom: 45px;
+    margin-bottom: 45rem;
 }
 
 
@@ -539,57 +544,57 @@ hr {
 
 .status {
     display: flex;
-    column-gap: 40px;
+    column-gap: 40rem;
 }
 
 
 .date {
     display: flex;
-    column-gap: 30px;
+    column-gap: 30rem;
     align-items: center;
 }
 
 
 .date_input {
-    padding: 15px;
+    padding: 15rem;
 }
 
 
 .fixedform {
-    margin-bottom: 50px;
+    margin-bottom: 50rem;
 }
 
 hr, .wrapper {
-    margin-bottom: 50px;
+    margin-bottom: 50rem;
 }
 
 
 .tablegender + label {
     position: relative;
     display: block;
-    font-size: 14px;
+    font-size: 14rem;
     color: #1f222c;
-    font-weight: 400;
+    /* font-weight: 400; */
     font-family: "Roboto";
     box-sizing: content-box;
-    padding-left: 30px;
+    padding-left: 30rem;
 }
 
 .tablegender + label:before {
     position: absolute;
     content: "";
-    width: 15px;
-    height: 15px;
-    border-radius: 7px;
+    width: 15rem;
+    height: 15rem;
+    border-radius: 7rem;
     background-color: #ffffff;
-    border: 1px solid #cccccc;
+    border: 1rem solid #cccccc;
     left: 0;
     top: 0;
 }
 
 .tablegender:checked + label:before {
     background-color: #ffffff;
-    border: 1px solid #3e6aff;
+    border: 1rem solid #3e6aff;
 }
 
 
@@ -597,12 +602,12 @@ hr, .wrapper {
 .tablegender + label:after {
     position: absolute;
     content: "";
-    width: 7px;
-    height: 7px;
-    border-radius: 4px;
+    width: 7rem;
+    height: 7rem;
+    border-radius: 4rem;
     background-color: #ffffff;
-    top: 5px;
-    left: 5px;
+    top: 5rem;
+    left: 5rem;
 }
 
 
@@ -618,8 +623,9 @@ hr, .wrapper {
 
 .gender_class {
     display: flex;
-    column-gap: 40px;
-    margin-bottom: 10px;
+    column-gap: 40rem;
+    margin-bottom: 10rem;
+    font-size: 14rem;
 }
 
 
@@ -629,62 +635,62 @@ hr, .wrapper {
 
 
 .file + label {
-    width: 170px;
-    height: 41px;
-    border-radius: 3px;
+    width: 170rem;
+    height: 41rem;
+    border-radius: 3rem;
     background-color: #3e6aff;
-    font-size: 14px;
+    font-size: 14rem;
     color: #ffffff;
-    font-weight: 700;
+    /* font-weight: 700; */
     font-family: "Roboto";
     text-align: center;
-    padding: 10px;
+    padding: 10rem;
     display: inline-block;
-    margin-bottom: 10px;
+    margin-bottom: 10rem;
     
 }
 
 
 .yourname {
-    width: 340px;
-    height: 41px;
-    border-radius: 3px;
+    width: 340rem;
+    height: 41rem;
+    border-radius: 3rem;
     background-color: #ffffff;
-    border: 1px solid #cccccc;
-    font-size: 14px;
+    border: 1rem solid #cccccc;
+    font-size: 14rem;
     color: #b3b3b3;
-    font-weight: 400;
+    /* font-weight: 400; */
     font-family: "Roboto";
-    padding: 10px;
-    margin-bottom: 10px;
+    padding: 10rem;
+    margin-bottom: 10rem;
 }
 
 
 
 .yourpassword {
-    width: 340px;
-    height: 41px;
-    border-radius: 3px;
+    width: 340rem;
+    height: 41rem;
+    border-radius: 3rem;
     background-color: #ffffff;
-    border: 1px solid #cccccc;
-    font-size: 14px;
+    border: 1rem solid #cccccc;
+    font-size: 14rem;
     color: #b3b3b3;
-    font-weight: 400;
+    /* font-weight: 400; */
     font-family: "Roboto";
-    padding: 10px;
-    margin-bottom: 10px;
+    padding: 10rem;
+    margin-bottom: 10rem;
 }
 
 .reg04, .reg05 {
-    padding: 15px 25px;
-    border-radius: 3px;
+    padding: 15rem 25rem;
+    border-radius: 3rem;
     background-color: #12d661;
-    font-size: 14px;
+    font-size: 14rem;
     color: #ffffff;
-    font-weight: 700;
+    /* font-weight: 700; */
     font-family: "Roboto";
     text-align: center;
-    border: 1px solid #12d661;
+    border: 1rem solid #12d661;
     cursor: pointer;
 }
 
@@ -696,7 +702,7 @@ hr, .wrapper {
 
 
 .comment {
-    margin-right: 85px;
+    margin-right: 85rem;
 }
 
 
@@ -712,12 +718,19 @@ input {
     width: 100%;
 }
 
+td label {
+    font-size: 14rem;
+}
+
+td p {
+    font-size: 14rem;
+}
 
 .flex {
     align-items: center;
     display: flex;
     border: none;
-    border-top: 1px solid #dcdcde;
+    border-top: 1rem solid #dcdcde;
     width: 100%;
 }
 
@@ -725,14 +738,14 @@ input {
 .ppcolor {
     font-size: 13px;
     color: #b3b3b3;
-    font-weight: 400;
+    /* font-weight: 400; */
     font-family: "Roboto";
-    margin-bottom: 10;
+    margin-bottom: 10rem;
 }  
 
 
 .pppcolor {
-    font-size: 14px;
+    font-size: 14rem;
     color: #1f222c;
     font-weight: 400;
     font-family: "Roboto";
@@ -740,15 +753,15 @@ input {
 
 
 .goback {
-    font-size: 14px;
+    font-size: 14rem;
     color: #6e6f77;
     font-weight: 700;
     font-family: "Roboto";
     text-align: center;
-    padding: 15px 25px;
-    border-radius: 3px;
+    padding: 15rem 25rem;
+    border-radius: 3rem;
     background-color: #ffffff;
-    border: 1px solid #85868d;
+    border: 1rem solid #85868d;
     cursor: pointer;
 }
 
@@ -774,15 +787,14 @@ input {
 }
 
 .rules {
-    padding-left: 25px;
+    padding-left: 25rem;
 }
 
 .part {
     width: 100%;
-    height: 25px;
-
-    margin-bottom: 25px;
-    border-bottom:1px solid #e9e9e9;
+    height: 25rem;
+    margin-bottom: 25rem;
+    border-bottom:1rem solid #e9e9e9;
 }
 
 
@@ -790,26 +802,20 @@ input {
     width: 100%;
 }
 
-
-
-
-
-
-
 .gender_input + label:before {
     content: "";
     position: absolute;
-    width: 15px;
-    height: 15px;
-    border-radius: 7px;
+    width: 15rem;
+    height: 15rem;
+    border-radius: 7rem;
     background-color: #ffffff;
-    border: 1px solid #cccccc;
+    border: 1rem solid #cccccc;
     left: 0;
 }
 
 .gender_input + label {
     position: relative;
-    padding-left: 25px;
+    padding-left: 25rem;
 }
 
 
@@ -820,12 +826,12 @@ input {
 .gender_input + label:after {
     content: "";
     position: absolute;
-    width: 7px;
-    height: 7px;
+    width: 7rem;
+    height: 7rem;
     border-radius: 50%;
     background-color: #fff;
-    left: 5px;
-    top: 5px;
+    left: 5rem;
+    top: 5rem;
 }
 
 .gender_input:checked + label:after {
@@ -836,27 +842,32 @@ input {
 .gender_input:checked + label:before {
     content: "";
     position: absolute;
-    width: 15px;
-    height: 15px;
-    border-radius: 7px;
+    width: 15rem;
+    height: 15rem;
+    border-radius: 7rem;
     background-color: #ffffff;
-    border: 1px solid #3e6aff;
+    border: 1rem solid #3e6aff;
     left: 0;
 }
 
 .fixedform {
     position: fixed;
     right: 7.5%;
-    top: 175px;
+    top: 175rem;
 }
+
 
 
 .lfixedform {
-    padding-left: 25px;
+    padding-left: 5rem;
+}
+
+.forgetpassword {
+    padding-left: 20rem;
 }
 
 .elements_1 label:not(input[type="radio"] + label) {
-    padding-left: 25px;
+    padding-left: 5rem;
 }
 
 .infixedform {
@@ -871,11 +882,11 @@ input {
 .cross:before, .cross:after {
     content: "";
     position: absolute;
-    width: 10px;
-    height: 2px;
+    width: 10rem;
+    height: 2rem;
     background-color: #6e6f77;
-    top: 10px;
-    right: 10px;
+    top: 10rem;
+    right: 10rem;
 }
 
 
@@ -886,4 +897,224 @@ input {
 
 .cross:after {
     rotate: -45deg;
+}
+
+.gender .man, .gender .woman {
+    font-size: 14rem;
+}
+
+.gender-and-switch {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 20rem;
+    row-gap: 50rem;
+    justify-content: space-between;
+}
+
+
+@media (min-width: 1440px) {
+    .cross {
+        display: none;
+    }
+}
+
+
+
+@media (max-width: 1440px) {
+    .fixedform {
+        right: 10%;
+    }
+}
+
+@media (min-width: 2000px) {
+    html {
+        font-size: 1.3px;
+    }
+}
+
+
+@media (max-width: 800px) {
+    .burger-span {
+        position: fixed;
+        display: block;
+        top: 20rem;
+        left: 4rem;
+        z-index: 2;
+        height: 3rem;
+        width: 30rem;
+        background-color: #1f222c;
+    }
+
+    .burger-span:before {
+        content:"" ;
+        position: absolute;
+        display: block;
+        z-index: 2;
+        top: -10rem;
+        left: 0;
+        height: 3rem;
+        width: 30rem;
+        background-color: #1f222c;
+    }
+
+    .burger-span:after {
+        content:"" ;
+        position: absolute;
+        display: block;
+        z-index: 2;
+        top: 10rem;
+        left: 0;
+        height: 3rem;
+        width: 30rem;
+        background-color: #1f222c;
+    }
+
+    .elements_date {
+        padding: 5rem;
+    }
+
+
+    .switch + label {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .elements:not(.punkt) {
+        padding-left: 0;
+    }
+
+
+    .elements_check1 + label:before {
+        content: "";
+        position: absolute;
+        width: 16rem;
+        height: 16rem;
+        border-radius: 3rem;
+        background-color: #ffffff;
+        border: 1rem solid #cccccc;
+        left: -20rem;
+        top: 0;
+    }
+
+    .elements_check1 + label:after {
+        content: "";
+        position: absolute;
+        width: 9rem;
+        height: 5rem;
+        border-left: 1rem solid #ffffff;
+        border-bottom: 1rem solid #ffffff;
+        rotate: -45deg;
+        top: 3rem;
+        left: -16rem;
+    }
+
+    .elements_date label::before {
+        left: 0;
+    }
+
+    .elements_date label::after {
+        left: 4px;
+    }
+
+    .elements_date {
+        margin-left: -25rem;
+        padding: 5rem;
+    }
+
+    .status p {
+        margin-bottom: 7rem;
+    }
+
+
+    .elements_1 label:not(input[type="radio"] + label) {
+        padding: ;
+    }
+
+    
+    
+    .elements_date {
+        width: 100% !important;
+    }
+
+    .elements_1 {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .status {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .fixedform {
+        display: none;
+    }
+
+
+    .p04t td:first-child {
+        display: none;
+    }
+
+    .date {
+        flex-wrap: wrap;
+    }
+
+    .date label {
+        padding-left: 0 !important;
+    }
+
+
+    .table05 {
+        min-width: 700rem;
+    }
+
+    .table05overflow {
+        width: 100%;
+        overflow-x: scroll;
+        overflow-y: hidden;
+    }
+
+    .fixedform h2 {
+        background-color: #fff;
+    }
+}
+
+@media (max-width:425px) {
+    .gender-and-switch {
+        display: flex;
+        flex-wrap: wrap;
+        column-gap: 20rem;
+        row-gap: 50rem;
+    }
+
+    .tf {
+        display: flex;
+    }
+
+    .p04t {
+        width: 100%;
+        max-width: 500rem;
+        margin: 0 auto;
+        border-collapse: separate;
+        border-spacing: 0 15px;
+    }
+
+    .p04t input, .p04t input, .p04t textarea, .p04t input {
+        width: 100%;
+        padding: 10px;
+        box-sizing: border-box;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+    }
+
+    
+    
+}
+
+.fixedform.active {
+    display: block;
+}
+
+.elements_date .status label {
+    padding-left: 25rem !important;
 }
