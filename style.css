@@ -933,7 +933,7 @@ td p {
 }
 
 
-@media (max-width: 800px) {
+@media (max-width: 900px) {
     .burger-span {
         position: fixed;
         display: block;
