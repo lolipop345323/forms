@@ -963,13 +963,6 @@ td p {
 @media (min-width: 900px) {
 
 
-    .sbbutton05 {
-        width: 100%;
-    }
-    
-    .table05 {
-        width: 100%;
-    }
     
     .elements_check1 + label:before {
         content: "";
@@ -1006,6 +999,14 @@ td p {
         height: 3rem;
         width: 30rem;
         background-color: #1f222c;
+    }
+
+    .sbbutton05 {
+        width: 100%;
+    }
+    
+    .table05 {
+        width: 100%;
     }
 
     .burger-span:before {
