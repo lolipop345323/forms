@@ -925,6 +925,11 @@ td p {
     justify-content: space-between;
     column-gap: 5rem;
     row-gap: 20rem;
+    width: 70%;
+}
+
+.table05 {
+    width: 70%;
 }
 
 
@@ -956,6 +961,16 @@ td p {
 }
 
 @media (min-width: 900px) {
+
+
+    .sbbutton05 {
+        width: 100%;
+    }
+    
+    .table05 {
+        width: 100%;
+    }
+    
     .elements_check1 + label:before {
         content: "";
         position: absolute;
