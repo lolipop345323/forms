@@ -992,7 +992,7 @@ td p {
         border-radius: 3rem;
         background-color: #ffffff;
         border: 1rem solid #cccccc;
-        /* left: -20rem; */
+        left: -20rem;
         top: 0;
     }
 
@@ -1005,7 +1005,7 @@ td p {
         border-bottom: 1rem solid #ffffff;
         rotate: -45deg;
         top: 3rem;
-        /* left: -16rem; */
+        left: -16rem;
     }
 
     .elements_date label::before {
